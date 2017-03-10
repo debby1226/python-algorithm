@@ -1,0 +1,13 @@
+//python装饰器是针对函数
+def decorator1(func):
+     def func_wrapper(num1):
+          return (func(num1))*100
+     return func_wrapper
+
+@decorator1
+def get_num2(num):
+         return num*3
+         
+         
+         
+         
