@@ -23,4 +23,4 @@ def get_num2(num):
   print(get_text("john"))
   
          
-//
+//装饰器可以用于写一些你不想修改的函数，然后可以反复循环使用。
